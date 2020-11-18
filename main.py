@@ -8,7 +8,7 @@ label = BinaryReader("t10k-labels.idx1-ubyte")
 
 while True:
     print("Which image to display? Or Exit(q)\n")
-    print("Range: 0 to " + image.m_lsDimension[0] + '\n')
+    print("Range: 0 to " + str(image.m_lsDimension[0]) + '\n')
     option = input()
 
     if option == 'q':
